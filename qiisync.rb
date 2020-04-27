@@ -2,16 +2,16 @@
 class Qiisync < Formula
   desc "Qiita CLI tool, support push and pull from/to local filesystem and Qiita."
   homepage "https://github.com/d-tsuji/qiisync"
-  version "0.0.3"
+  version "0.0.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/d-tsuji/qiisync/releases/download/v0.0.3/qiisync_0.0.3_darwin_amd64.zip"
-    sha256 "c06b84d0ba519681f5027b3ae5be9e6fe1fb43b5c95dfd4c0df970fb22dc56e1"
+    url "https://github.com/d-tsuji/qiisync/releases/download/v0.0.4/qiisync_0.0.4_darwin_amd64.zip"
+    sha256 "8de02b6f71b599c8f9831e794d4486be749616b89515325329c08d1379eabe20"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/d-tsuji/qiisync/releases/download/v0.0.3/qiisync_0.0.3_linux_amd64.zip"
-      sha256 "e7c76afa4b4bed5bd3788b8eea54fe926b3d8ddb90abb2100f9bb23d0d794d84"
+      url "https://github.com/d-tsuji/qiisync/releases/download/v0.0.4/qiisync_0.0.4_linux_amd64.zip"
+      sha256 "d5956bdba1b814a4315455fddac89f22d1d9c7086f26f836bfe7a689bec8ebcb"
     end
   end
 
